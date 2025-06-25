@@ -1,0 +1,21 @@
+.input {
+  background: var(--gray-500);
+  color: var(--gray-300);
+  display: block;
+  /* margin: -1.6875rem auto; */
+  width: 39.875rem;
+  height: 3.375rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  
+}
+
+.inputFilled {
+  background: var(--gray-500);
+  color: var(--gray-100);
+  display: block;
+  width: 39.875rem;
+  height: 3.375rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}

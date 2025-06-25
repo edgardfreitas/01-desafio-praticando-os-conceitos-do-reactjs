@@ -1,0 +1,68 @@
+.task {
+  background: var(--gray-500);
+  color: var(--gray-100);
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 46rem;
+  height: 4.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--gray-400);
+}
+
+.task p {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal; 
+  font-size: 0.875rem;
+  line-height: 140%;
+}
+
+.taskDone {
+  background: var(--gray-500);
+  color: var(--gray-300);
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 46rem;
+  height: 4.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.taskDone p {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal; 
+  font-size: 0.875rem;
+  line-height: 140%;
+  text-decoration-line: line-through;
+}
+
+.circle {
+  color: var(--blue);
+  margin-right: 0.75rem;
+}
+
+.circle:hover {
+  color: var(--blue-dark);
+}
+
+.checkCircle {
+  color: var(--purple-dark);
+  margin-right: 0.75rem;
+}
+
+.checkCircle:hover {
+  color: var(--purple);
+}
+
+.trash {
+  color: var(--gray-300);
+  margin-left: auto;
+}
+
+.trash:hover {
+  color: var(--danger);
+}
