@@ -1,18 +1,16 @@
-import { CheckCircle, Circle, Trash } from 'phosphor-react';
+import { Trash } from 'phosphor-react';
+import { Checkbox } from '../components/Checkbox';
 import styles from './Task.module.css'
 
 /*
-  DEFAULT: styles.task, styles.circle, styles.trash
-  DONE: styles.taskDone, styles.checkCircle
+  DEFAULT: styles.task, styles.trash
+  DONE: styles.taskDone
 */
 
 export function Task() {
   return (
     <div className={styles.taskDone}>
-      <div className={styles.checkCircle}>
-        {/* <Circle size={24} /> */}
-        <CheckCircle size={24} weight="fill" />
-      </div>
+      <Checkbox />
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, minima commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       <div className={styles.trash}>
         <Trash size={24} />
